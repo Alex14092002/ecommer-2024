@@ -1,0 +1,26 @@
+.header-mobile{
+    display: none;
+}
+.ant-input-search-button{
+    color: #0A68FF ;
+    background-color: #fff !important;
+    border : 1px solid #d9d9d9; 
+}
+.ant-input-search-button:hover{
+    color: #0A68FF  !important;
+    background-color: rgba(10, 104, 255, 0.2) !important;
+}
+.btn-home:hover{
+    background-color: rgba(10, 104, 255, 0.2) !important;
+}
+.btn-home{
+    border-radius: 6px;
+}
+@media(max-width : 700px){
+    .header-desktop{
+        display: none;
+    }
+    .header-mobile{
+        display: block;
+    }
+}
